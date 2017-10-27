@@ -1,0 +1,28 @@
+<div id="home" class="row">
+
+  <div class="col-sm-12">
+
+    <h1>💖 Date kalender! 💖</h1>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2>Seasonal winners F1 2005 &ndash; 2015</h2>
+      </div>
+      <div class="panel-body">
+
+        <ul class="dates">
+          <li ng-repeat="date in vm.dates" ng-class="{'jiggle': date.isCurrent && !date.isOpen}">
+            <div class="door" ng-click="vm.toggleDoor(date);" ng-class="{'open': date.isOpen}">
+              {{date.month}}
+            </div>
+            <div class="revealed clickable" ng-click="vm.showDate(date);" ng-if="date.isOpen">?</div>
+          </li>
+        </ul>
+
+
+      </div>
+    </div>
+
+  </div>
+
+</div>
