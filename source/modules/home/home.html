@@ -2,20 +2,24 @@
 
   <div class="col-sm-12">
 
-    <h1>💖 Date kalender! 💖</h1>
-
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h2>Seasonal winners F1 2005 &ndash; 2015</h2>
+        <h1>💖 Date kalender! 💖</h1>
       </div>
       <div class="panel-body">
+
+        <em class="subtitle">Iedere maand een verrassing!</em>
 
         <ul class="dates">
           <li ng-repeat="date in vm.dates" ng-class="{'jiggle': date.isCurrent && !date.isOpen}">
             <div class="door" ng-click="vm.toggleDoor(date);" ng-class="{'open': date.isOpen}">
               {{date.month}}
             </div>
-            <div class="revealed clickable" ng-click="vm.showDate(date);" ng-if="date.isOpen">?</div>
+            <div class="revealed clickable" ng-click="vm.showDate(date);" ng-if="date.isOpen">
+              <span ng-if="date.isCurrent && date.isOpen">❔</span>
+              <span ng-if="!date.isCurrent && date.isOpen && !date.emoji">✨</span>
+              <span ng-if="!date.isCurrent && date.isOpen && date.emoji">{{date.emoji}}</span>
+            </div>
           </li>
         </ul>
 

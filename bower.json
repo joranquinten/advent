@@ -2,47 +2,28 @@
   "name": "fe-demo",
   "description": "Frontend Developer Demonstration",
   "main": "",
-  "authors": [
-    "Joran Quinten"
-  ],
+  "authors": ["Joran Quinten"],
   "license": "MIT",
   "homepage": "",
   "moduleType": [],
   "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
+  "ignore": ["**/.*", "node_modules", "bower_components", "test", "tests"],
   "overrides": {
     "font-awesome": {
-      "main": [
-        "css/font-awesome.css"
-      ]
+      "main": ["css/font-awesome.css"]
     },
     "angular": {
-      "main": [
-        "../jquery/dist/jquery.js",
-        "./angular.js"
-      ]
+      "main": ["../jquery/dist/jquery.js", "./angular.js"]
     },
     "bootstrap": {
-      "main": [
-        "./dist/css/bootstrap.css",
-        "./dist/js/bootstrap.js"
-      ]
+      "main": ["./dist/css/bootstrap.css", "./dist/js/bootstrap.js"]
     },
     "moment": {
-      "main": [
-        "min/moment.min.js",
-        "locale/nl.js"
-      ]
+      "main": ["min/moment.min.js", "locale/nl.js"]
     }
   },
   "dependencies": {
-    "angular": "1.5.8",
+    "angular": "1.6.6",
     "angular-ui-router": "0.3.2",
     "angular-loading-bar": "^0.9.0",
     "font-awesome": "fontawesome#^4.5.0",
@@ -52,10 +33,10 @@
     "angular-sanitize": "^1.6.6"
   },
   "resolutions": {
-    "angular": "1.5.8",
+    "angular": "1.6.6",
     "jquery": "3.1.1",
     "angular-loading-bar": "^0.9.0",
-    "angular-animate": "^1.6.4"
+    "angular-animate": "^1.6.6"
   },
   "postinstall": "gulp wiredep",
   "devDependencies": {}

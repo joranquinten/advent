@@ -24,12 +24,15 @@
       var dates = [
         {
           month: 1,
-          title: "Januari date",
-          details: "<p>Long block of html</p>",
+          title: "Wandelconcert Den Bosch",
+          emoji: "🎶",
+          details:
+            "<p>Houdt u wel van een winterse avondwandeling? En laat u zich graag verrassen door de mooiste kamermuziek? Dan is deze dynamische concertavond dé cultuurtip voor u! De historische binnenstad van Den Bosch vormt het decor waarin we, wandelend van de ene naar de andere sfeervolle locatie, luisteren naar muzikale schatten van de kamermuziek. Naast optredens van het befaamde Storioni Trio en hun internationale muziekvrienden, presenteert de kersverse winnaar van het Storioni Willem Twee Concours ’18 zich aan het publiek. Laat u zich verrassen en wandelt u mee?</p>",
           links: [
             {
-              link: "https://google.com/",
-              linkTitle: "Naar de website"
+              link:
+                "http://storionifestival.nl/storNL/?event=wandelconcert-den-bosch-4&event_date=2018-01-23",
+              linkTitle: "Storioni Festival"
             }
           ]
         },
@@ -79,7 +82,8 @@
         },
         {
           month: 6,
-          title: "Juni date",
+          title: "Sterrenkijken",
+          emoji: "🌌",
           details: "<p>Long block of html</p>",
           links: [
             {
