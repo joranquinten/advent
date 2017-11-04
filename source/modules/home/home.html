@@ -16,9 +16,9 @@
               {{date.month}}
             </div>
             <div class="revealed clickable" ng-click="vm.showDate(date);" ng-if="date.isOpen">
-              <span ng-if="date.isCurrent && date.isOpen">❔</span>
+              <span ng-if="date.isCurrent && date.isOpen && !date.emoji">❔</span>
               <span ng-if="!date.isCurrent && date.isOpen && !date.emoji">✨</span>
-              <span ng-if="!date.isCurrent && date.isOpen && date.emoji">{{date.emoji}}</span>
+              <span ng-if="date.isOpen && date.emoji">{{date.emoji}}</span>
             </div>
           </li>
         </ul>
