@@ -6,7 +6,7 @@
 
   <ul class="date-links" ng-if="vm.itemDetails.links.length > 0">
     <li ng-repeat="link in vm.itemDetails.links">
-      <a ng-href="link.link" target="_blank">{{link.linkTitle}}</a>
+      <a ng-href="link.link" target="_blank" ng-bind-html="link.linkTitle"></a>
     </li>
   </ul>
 

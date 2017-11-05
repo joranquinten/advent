@@ -6,7 +6,7 @@ https://apps.timwhitlock.info/emoji/tables/unicode
 
 body {
   font-family: "Oleo Script", cursive;
-  padding: 20px;
+  padding: 20px 0;
   font-weight: 400;
   background: #fdf5f9;
   color: #fff;
@@ -24,6 +24,10 @@ body {
   background-color: #f52f57;
   border: none;
   color: #fff;
+}
+
+.panel-default > .panel-heading h1 {
+  font-size: 3rem;
 }
 
 .panel-default > .panel-body {
@@ -151,6 +155,10 @@ ul.dates .open {
 
 .modal {
   color: #a20021;
+}
+
+.modal-dialog {
+  top: 10%;
 }
 
 #modal-body {

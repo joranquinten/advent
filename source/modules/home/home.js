@@ -33,7 +33,7 @@
     ////////////////////
 
     function toggleDoor(item) {
-      if (item.month <= vm.month) {
+      if (vm.year === 2018 && item.month <= vm.month) {
         item.isOpen = !item.isOpen;
       }
     }
@@ -76,7 +76,7 @@
     }
 
     function formatDates(dates) {
-      if (vm.year === 2017) {
+      if (vm.year === 2018) {
         dates.map(function(date) {
           date.isPassed = date.month < vm.month;
           date.isCurrent = date.month === vm.month;
