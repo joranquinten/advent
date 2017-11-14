@@ -1,15 +1,9 @@
-Frontend Developer Demonstration
+Advent Calender
 =======
 
 ### Introduction
 
-_"The purpose of this demo is to demonstrate my familiarity with the AngularJS frontend technology, programming patterns and to provide with a sample of what clean and reusable code means to me as a developer."_
-
-The app lists results of the Formula 1 racing seasons from 2005 through 2015. The source of the info is the [Ergast F1 API](http://ergast.com/mrd/). The limited scope of season years and display of the race results force the remapping of the data to a format which is usable in the interface. For every season, the details are accessible via a modal. In the modal the race results per season are listed. The seasonal winner is indicated with a 'trophy' icon, if the seasonal winner is the winner of a race in that season.
-
-Every column is sortable and filterable. Filtering takes place on the retrieved data, no round trips to the API are required.
-
-I have included a global build setup, in order to not only demonstrate my code, but also to give a glimpse of my development process and tools. The optimized output of the files is located in the ./build/ folder, the source originates from the ./source/
+This project builds a custom advent calendar. Used to display date night events during the course of a year. Built with AngularJS and tooling on GulpJS.
 
 ### Installation
 
@@ -49,37 +43,8 @@ Comments are used liberaly throughout the code. Feel free to inspect the source 
 
 I have adhered the [Angular 1 styleguide](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md) as documented by John Papa. In my opinion a great, clear guide in which it is encouraged to break up an SPA into multiple modules. Following that styleguide results in very readable code, especially on larger codebases.
 
-### Third party components
-
-I have added several third party components to the code. In this use case, the following goes for nearly all of the components, especially the frameworks: loading up the entire library when you would need only a few components is not optimized for a finished product. As a proof of concept however, I am satisfied with current setup.
-I find that using a framework gives you varied mileage. These opiniated tools help you get started, but can get in the way for specific use cases. I would analyse the requirements further down the road (if available) to determine wether to start out with frameworks or decide to build a component or framework from scratch.
-
-#### Generic components
-
-**Fontawesome**
-
-Fontawesome is my favorite icon set to use in web applications. I realise in this instance, I only use the assets to render the cup-symbol to indicate winners. If that would remain the case, I would probably try and optimize this in only importing the icons necessary.
-
-**Bootstrap**
-
-I use Bootstrap to be able to quickly scaffold an app with predefined, responsive and robust UI elements. It enables me to quickly mock an interface.
-
-#### AngularJS components
-
-**Angular UI Router**
-
-I have included Angular UI Router for it's extended capabilities over angular router.
-
-**Angular Bootstrap**
-
-Angular Bootstrap provides easy integration between the bootstrap theme and angular directives. I have included the modal in this particular instance.
-
-**Angular Loading bar**
-
-This component attaches itself to any http requests (via the $http service) the SPA makes and displays a generic loading bar. This removes the necessity of adding multiple loading icons or spinners for several components. Keep in mind that in some cases a more contextual loading animation would be of significance for the user. That is the reason I have added an additional notifcation when loading the seasons. I found it took about 2s loading om GPRS network, to about 800ms unthrottled, which still is a significant amount of time to wait for the content.
-
 ---
 
 ### About
 
-Author: [Joran Quinten](mailto:joran@joranquinten.nl), July 2017
+Author: [Joran Quinten](https://qtn.io), November 2017
