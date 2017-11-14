@@ -12,6 +12,8 @@
     // Bind this to a viewModel
     var vm = this;
 
+    var YEAR = 2018;
+
     var date = new Date();
     vm.month = date.getMonth() + 1;
     vm.year = date.getFullYear();
@@ -33,8 +35,26 @@
     ////////////////////
 
     function toggleDoor(item) {
-      if (vm.year === 2018 && item.month <= vm.month) {
+      if (!window.localStorage.getItem("settings")) {
+        window.localStorage.setItem("settings", JSON.stringify(vm.dates));
+      }
+
+      if ((vm.year === YEAR && item.month <= vm.month) || true) {
         item.isOpen = !item.isOpen;
+
+        var localSettings = JSON.parse(window.localStorage.getItem("settings"));
+
+        localSettings.map(function(localItem) {
+          var _item = localItem;
+
+          if (item.month === localItem.month) {
+            _item.isOpen = item.isOpen;
+          }
+
+          return _item;
+        });
+
+        window.localStorage.setItem("settings", JSON.stringify(localSettings));
       }
     }
 
@@ -76,11 +96,19 @@
     }
 
     function formatDates(dates) {
-      if (vm.year === 2018) {
+      var localSettings =
+        JSON.parse(window.localStorage.getItem("settings")) || [];
+
+      if (vm.year === YEAR) {
         dates.map(function(date) {
+          var isOpened =
+            localSettings.filter(function(setting) {
+              return setting.month === date.month && setting.isOpen;
+            }).length > 0;
+
           date.isPassed = date.month < vm.month;
           date.isCurrent = date.month === vm.month;
-          date.isOpen = date.isPassed;
+          date.isOpen = date.isPassed || isOpened;
           return date;
         });
       }

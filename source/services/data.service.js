@@ -27,29 +27,14 @@
           title: "Mysterie op dinsdag 23 januari",
           emoji: "🎻",
           details:
-<<<<<<< HEAD
             "<p>Op tijd thuis zijn van je werk! We eten op tijd, met de kinderen, bij oma Joke en opa Joop. Om <strong>kwart over 7</strong> vertrekken we naar Den Bosch voor de eerste date. Kleed je warm aan!</p><p>De eerste date houden we nog een verrassing. Sommige dates mag je van tevoren weten, andere weer niet. Spannend hè?</p>"
-=======
-            "<p>We vieren het nieuwe jaar met een concert. Op verschillende plekken in Den Bosch wordt muziek gespeeld en wij wandelen romantisch van locatie naar locatie.</p><p><em>Houdt u wel van een winterse avondwandeling? En laat u zich graag verrassen door de mooiste kamermuziek? Dan is deze dynamische concertavond dé cultuurtip voor u! De historische binnenstad van Den Bosch vormt het decor waarin we, wandelend van de ene naar de andere sfeervolle locatie, luisteren naar muzikale schatten van de kamermuziek. Naast optredens van het befaamde Storioni Trio en hun internationale muziekvrienden, presenteert de kersverse winnaar van het Storioni Willem Twee Concours ’18 zich aan het publiek. Laat u zich verrassen en wandelt u mee?</em></p>",
-          links: [
-            {
-              link:
-                "http://storionifestival.nl/storNL/?event=wandelconcert-den-bosch-4&event_date=2018-01-23",
-              linkTitle: "Storioni Festival"
-            }
-          ]
->>>>>>> 27a2af5eb4849894081912735ced400515d856ae
         },
         {
           month: 2,
           title: "Smakelijk eten",
           emoji: "🥘",
           details:
-<<<<<<< HEAD
-            "<p>We gaan lekker uitgebreid koken en dineren gewoon thuis. Net zo lekker! Voorgerechtje, hoofdgerecht en, als je zin hebt, natuurlijk een lekker toetje (en dat mag gewoon ijs zijn).</p><p>Bon apetit!</p><p>Een gerechtje kies je zelf uit, waar je zin in hebt.</p>",
-=======
             "<p>We gaan lekker uitgebreid koken en dineren gewoon thuis. Net zo lekker! Kindjes vroeg op bed (wij kunnen wel een snackje mee-eten). En daarna gaan wij uitgebreid aan de slag: voorgerechtje, hoofdgerecht en natuurlijk een lekker toetje. Dat mag gewoon ijs zijn, want dat glijdt overal tussendoor.</p><p>Bon apetit!</p><p>Waar heb je zin in? Aziatisch? Bourgondisch? Zuid-Amerikaans? Eerst even samen een lijstje maken, dan zorgt Joran dat de boodschappen in huis zijn. Met een flesje wijn er bij.</p>",
->>>>>>> 27a2af5eb4849894081912735ced400515d856ae
           links: [
             {
               link:
@@ -143,17 +128,7 @@
           title: "Rollerdisco",
           emoji: "🕺",
           details:
-<<<<<<< HEAD
             "<p>Oei! De stroom is uitgevallen! Dat wordt knus een avondje zonder televisie, zonder Netflix, zonder internet en hopelijk zonder babyfoon.<br/>Maar met kaarsjes, kleedjes, spelletjes en zaklampen overleven in de woonkamer.</p><p>'s Ochtends doet de stroom het weer.</p>"
-=======
-            "<p>Dance! Boogie Wonderland!</p><p>Trek je stoute rolschaatsen aan: we gaan aan de rollerdisco! De kindjes logeren bij tante Saskia en ome Sjoerd. Wij ook trouwens, dan kunnen we gezellig met zijn allen ontbijten.</p>",
-          links: [
-            {
-              link: "http://www.skatefever.nl/",
-              linkTitle: "Skate fever"
-            }
-          ]
->>>>>>> 27a2af5eb4849894081912735ced400515d856ae
         },
         {
           month: 12,
