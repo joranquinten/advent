@@ -24,24 +24,17 @@
       var dates = [
         {
           month: 1,
-          title: "Wandelconcert Den Bosch",
+          title: "Mysterie op dinsdag 23 januari",
           emoji: "🎻",
           details:
-            "<p>Houdt u wel van een winterse avondwandeling? En laat u zich graag verrassen door de mooiste kamermuziek? Dan is deze dynamische concertavond dé cultuurtip voor u! De historische binnenstad van Den Bosch vormt het decor waarin we, wandelend van de ene naar de andere sfeervolle locatie, luisteren naar muzikale schatten van de kamermuziek. Naast optredens van het befaamde Storioni Trio en hun internationale muziekvrienden, presenteert de kersverse winnaar van het Storioni Willem Twee Concours ’18 zich aan het publiek. Laat u zich verrassen en wandelt u mee?</p>",
-          links: [
-            {
-              link:
-                "http://storionifestival.nl/storNL/?event=wandelconcert-den-bosch-4&event_date=2018-01-23",
-              linkTitle: "Storioni Festival"
-            }
-          ]
+            "<p>Op tijd thuis zijn van je werk! We eten op tijd, met de kinderen, bij oma Joke en opa Joop. Om <strong>kwart over 7</strong> vertrekken we naar Den Bosch voor de eerste date. Kleed je warm aan!</p><p>De eerste date houden we nog een verrassing. Sommige dates mag je van tevoren weten, andere weer niet. Spannend hè?</p>"
         },
         {
           month: 2,
           title: "Smakelijk eten",
           emoji: "🥘",
           details:
-            "<p>We gaan lekker uitgebreid koken en dineren gewoon thuis. Net zo lekker! Voorgerechtje, hoofdgerecht en natuurlijk een lekker toetje (en dat mag gewoon ijs zijn).</p><p>Bon apetit!</p><p>Een gerechtje kies je zelf uit, waar je zin in hebt.</p>",
+            "<p>We gaan lekker uitgebreid koken en dineren gewoon thuis. Net zo lekker! Voorgerechtje, hoofdgerecht en, als je zin hebt, natuurlijk een lekker toetje (en dat mag gewoon ijs zijn).</p><p>Bon apetit!</p><p>Een gerechtje kies je zelf uit, waar je zin in hebt.</p>",
           links: [
             {
               link:
@@ -134,14 +127,14 @@
           title: "Itadakimasu!",
           emoji: "🍣",
           details:
-            '<p>Zeg maar: "Smakelijk eten!" in het Japans. We gaan lekker sushi eten. Dat hebben we wel verdiend!</p>'
+            '<p>Zeg maar: "Smakelijk eten!" in het Japans. We gaan lekker sushi maken en daarna zelf opeten. Dat hebben we wel verdiend!</p><p>Geef jij de saké even aan?</p>'
         },
         {
           month: 11,
           title: "Stroomuitval",
           emoji: "🔥",
           details:
-            "<p>Oei! De stroom is uitgevallen! Dat wordt knus een avondje zonder televisie, zonder Netflix, zonder internet.<br/>Maar met kaarsjes, kleedjes, spelletjes en zaklampen overleven in de woonkamer.</p><p>'s Ochtends doet de stroom het weer.</p>"
+            "<p>Oei! De stroom is uitgevallen! Dat wordt knus een avondje zonder televisie, zonder Netflix, zonder internet en hopelijk zonder babyfoon.<br/>Maar met kaarsjes, kleedjes, spelletjes en zaklampen overleven in de woonkamer.</p><p>'s Ochtends doet de stroom het weer.</p>"
         },
         {
           month: 12,

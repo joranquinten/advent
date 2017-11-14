@@ -27,7 +27,7 @@ body {
 }
 
 .panel-default > .panel-heading h1 {
-  font-size: 3rem;
+  font-size: 2.8rem;
 }
 
 .panel-default > .panel-body {
@@ -38,6 +38,25 @@ body {
 .subtitle {
   font-size: 2rem;
   color: #fdf5f9;
+}
+
+a {
+  color: #a20021;
+}
+.btn-primary {
+  background-color: #a20021;
+  border-color: #760019;
+}
+
+a:hover,
+a:active {
+  color: #f52f57;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: #f52f57;
+  border-color: #df2b50;
 }
 
 ul.dates {
@@ -154,7 +173,7 @@ ul.dates .open {
 }
 
 .modal {
-  color: #a20021;
+  color: #f52f57;
 }
 
 .modal-dialog {
