@@ -7,6 +7,7 @@ module.exports = function(
 
         notify('Running develop script...', 'title');
 
-        runSequence('html:assets', 'html', 'test', 'serve', 'watch');
+        runSequence('html:assets', 'html', 'serve', 'watch');
+        //runSequence('html:assets', 'html', 'test', 'serve', 'watch');
     };
 };

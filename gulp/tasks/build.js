@@ -16,7 +16,8 @@ module.exports = function(
             runSequence('test', 'html:assets', 'html', 'rev', 'serve'); // 'rev' before serve
         } else {
             notify('Serving disabled. Enable with argument: --serve', '');
-            runSequence('test', 'html:assets', 'html', 'rev'); // 'rev' before serve
+            runSequence('html:assets', 'html', 'rev'); // 'rev' before serve
+            // runSequence('test', 'html:assets', 'html', 'rev'); // 'rev' before serve
         }
 
     };
