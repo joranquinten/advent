@@ -1,4 +1,4 @@
-(function() {
+(function () {
   "use strict";
 
   /*
@@ -27,7 +27,7 @@
     ///////////////
 
     function init() {
-      getDates().then(function(dates) {
+      getDates().then(function (dates) {
         vm.dates = formatDates(dates);
       });
     }
@@ -39,12 +39,12 @@
         window.localStorage.setItem("settings", JSON.stringify(vm.dates));
       }
 
-      if ((vm.year === YEAR && item.month <= vm.month) || true) {
+      if (vm.year === YEAR && item.month <= vm.month) {
         item.isOpen = !item.isOpen;
 
         var localSettings = JSON.parse(window.localStorage.getItem("settings"));
 
-        localSettings.map(function(localItem) {
+        localSettings.map(function (localItem) {
           var _item = localItem;
 
           if (item.month === localItem.month) {
@@ -67,7 +67,7 @@
         controllerAs: "vm",
         size: "lg",
         resolve: {
-          itemDetails: function() {
+          itemDetails: function () {
             return itemDetails;
           }
         }
@@ -81,7 +81,7 @@
 
       // Make the call to the service:
       dataService.getAllItems().then(
-        function(response) {
+        function (response) {
           // Bind the beautified data to the viewModel:
           defer.resolve(response);
         },
@@ -100,9 +100,9 @@
         JSON.parse(window.localStorage.getItem("settings")) || [];
 
       if (vm.year === YEAR) {
-        dates.map(function(date) {
+        dates.map(function (date) {
           var isOpened =
-            localSettings.filter(function(setting) {
+            localSettings.filter(function (setting) {
               return setting.month === date.month && setting.isOpen;
             }).length > 0;
 
